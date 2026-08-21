@@ -1,0 +1,21 @@
+#WAP to check whether user is eligible for a driving licence
+
+#include <stdio.h>
+int main() {
+int a;
+    printf("\n Enter your age: ");
+    scanf("%d", &a);
+    
+ if (a >= 18) 
+ {
+    printf("You are %d years old. Eligible for Driving Licence!", a);
+    
+    }
+    
+ else {
+        printf("You are %d years old. Not eligible yet. Please wait until 18", a);
+    }
+
+        
+  return 0;
+  } 
