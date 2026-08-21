@@ -1,0 +1,13 @@
+//WAP to calculate Perimeter and Area of a Rectangle
+#include <stdio.h>
+
+int main() {
+  int l,b,a,p;
+  l=70;
+  b=20;
+  a=l*b;
+  p=2*(l+b);
+  printf("The Area is: %d\n", a);
+  printf("The Perimeter is: %d", p);
+  return 0;
+}
