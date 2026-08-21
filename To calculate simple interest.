@@ -1,0 +1,23 @@
+//WAP to calculate simple interest. 
+
+#include <stdio.h>
+
+int main() {
+    float P, R, T, SI;
+
+    printf("Enter Principal: ");
+    scanf("%f", &P);
+    
+    printf("Enter Rate: ");
+    scanf("%f", &R);
+    
+    printf("Enter Time: ");
+    scanf("%f", &T);
+    
+
+    SI = (P * R * T) / 100;
+
+    printf("Simple Interest = %f\n", SI);
+
+    return 0;
+}
