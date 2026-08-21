@@ -1,0 +1,32 @@
+//WAP to calculate the Total, Percentage, and average of 3 subjects from the user
+
+#include <stdio.h>
+int main() {
+float a,b,c,d,e, total, percentage, avg;
+
+  printf("\nEnter the Marks of 1st subject:");
+  scanf("%f",&a);
+  
+  printf("\nEnter the Marks of 2nd subject:");
+  scanf("%f",&b);
+  
+  printf("\nEnter the Marks of 3rd subject:");
+  scanf("%f",&c);
+  
+  printf("\nEnter the Marks of 4th subject:");
+  scanf("%f",&d);
+  
+  printf("\nEnter the Marks of 5th subject:");
+  scanf("%f",&e);
+  
+  total= a+b+c+d+e;
+  printf("\n Total Marks: %f",total);
+  
+  percentage=(a+b+c+d+e)/ 500 * 100; 
+  printf("\n Percentage: %f",percentage);
+  
+  avg=total/5; 
+  printf("\n Average Marks %f",avg);
+
+  return 0;
+}
