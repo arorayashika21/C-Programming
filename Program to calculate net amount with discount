@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    float cost,amt,discount,netamount;
+    int qty;
+
+    printf("\n Enter the cost of the product: ");
+    scanf("%f", &cost);
+
+    printf("\n Enter quantity of the product: ");
+    scanf("%d", &qty);
+
+    amt=cost*qty;
+
+    if (amt >= 5000) {
+        discount=amt * 0.20;
+    } 
+    else {
+        discount=amt * 0.10;
+    }
+
+    netamount=amt-discount;
+    printf("Total Amount: %f\n", amt);
+    printf("Discount: %f\n", discount);
+    printf("The Net Amount is: %f\n",netamount);
+
+    return 0;
+}
